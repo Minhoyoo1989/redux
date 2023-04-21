@@ -1,0 +1,20 @@
+{
+  "name": "vainilla-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel watch ./index.js --no-source-maps ./",
+    "build": "parcel build ./index.js --no-source-maps --experimental-scope-hoisting -d ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "redux": "^4.2.1"
+  }
+}
